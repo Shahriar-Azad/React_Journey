@@ -10,8 +10,8 @@ export default function ThemeToggle() {
   };
 
   return (
-//     <button onClick={toggleTheme}>
-//       {darkMode ? 'Switch to Light Mode' : 'Switch to Dark Mode'}
-//     </button>
+    <button onClick={toggleTheme}>
+       {/* {darkMode ? 'Switch to Light Mode' : 'Switch to Dark Mode'} */}
+     </button>
      );
 }
