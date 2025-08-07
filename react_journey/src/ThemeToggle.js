@@ -9,9 +9,9 @@ export default function ThemeToggle() {
     document.body.style.color = darkMode ? '#000' : '#fff';
   };
 
-//   return (
+  return (
 //     <button onClick={toggleTheme}>
 //       {darkMode ? 'Switch to Light Mode' : 'Switch to Dark Mode'}
 //     </button>
-//   );
+     );
 }
