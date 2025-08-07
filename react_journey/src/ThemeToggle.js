@@ -5,7 +5,7 @@ export default function ThemeToggle() {
 
   const toggleTheme = () => {
     setDarkMode(!darkMode);
-//     document.body.style.backgroundColor = darkMode ? '#fff' : '#222';
+    document.body.style.backgroundColor = darkMode ? '#fff' : '#222';
 //     document.body.style.color = darkMode ? '#000' : '#fff';
 //   };
 
