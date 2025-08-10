@@ -6,4 +6,9 @@ const quotes = [
   "Code is like humor. When you have to explain it, it’s bad."
 ];
 
+export default function QuoteGenerator() {
+  const [quote, setQuote] = useState(quotes[0]);
+  return (
 
+  );
+}
