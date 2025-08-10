@@ -11,7 +11,9 @@ export default function QuoteGenerator() {
   return (
     <div>
       <p>"{quote}"</p>
-
+      <button onClick={() => setQuote(quotes[Math.floor(Math.random() * quotes.length)])}>
+        New Quote
+      </button>
     </div>
   );
 }
