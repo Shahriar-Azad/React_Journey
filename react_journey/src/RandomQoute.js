@@ -9,6 +9,9 @@ const quotes = [
 export default function QuoteGenerator() {
   const [quote, setQuote] = useState(quotes[0]);
   return (
+    <div>
+      <p>"{quote}"</p>
 
+    </div>
   );
 }
