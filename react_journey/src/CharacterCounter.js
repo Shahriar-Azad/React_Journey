@@ -4,8 +4,8 @@ export default function CharCounter() {
   const [text, setText] = useState('');
   return (
     <div>
-      {/* <textarea value={text} onChange={(e) => setText(e.target.value)} />
-      <p>Character Count: {text.length}</p> */}
+      <textarea value={text} onChange={(e) => setText(e.target.value)} />
+
     </div>
   );
 }
