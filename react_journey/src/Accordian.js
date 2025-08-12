@@ -7,7 +7,7 @@ export default function Accordion() {
       <button onClick={() => setOpen(!open)}>
         {open ? 'Hide' : 'Show'} Details
       </button>
-    
+      {open && <p>This is some hidden content shown on click.</p>}
     </div>
   );
 }
