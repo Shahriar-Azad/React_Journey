@@ -1,14 +1,13 @@
 import React from 'react'
+import UseState from "/src/UseState"
 
 const App = () => {
-  const name = "John"
-  const age = 20
+
 
   return (
     <>
-    <div className='text-5xl'>App</div>
-    <h1>Hi my name is { name }</h1>
-    <h1>Im { age } years old</h1>
+
+    <UseState/>
 </>
   )
 }
